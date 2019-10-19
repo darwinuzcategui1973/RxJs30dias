@@ -1,4 +1,4 @@
-# Dia 0 ![Reactivo](http://reactivex.io/assets/Rx_Logo_S.png) [ReactiveX](http://reactivex.io/ "Pagina Oficial")
+# Dia 0 ![Reactivo](http://reactivex.io/assets/Rx_Logo_S.png) [ReactiveX](https://reactivex.io/ "Pagina Oficial")
 
 ## ReactiveX se definen a si mismos como:
 
