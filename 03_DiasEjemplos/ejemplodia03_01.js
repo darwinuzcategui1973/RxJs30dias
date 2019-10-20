@@ -6,6 +6,8 @@
 | Push     | Promise  | Observable |
 +----------------------------------+
 */
+
+
 var observable = Rx.Observable.create(function(observer) {
   observer.next(1); // aqui hacemos push sicronico
   observer.next(2);
