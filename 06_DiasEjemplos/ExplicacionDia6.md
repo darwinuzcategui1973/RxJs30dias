@@ -40,7 +40,7 @@ Al suscribirse a un Observable, también puede proporcionar las devoluciones de 
 
 ```js
 
-observable.subscribe(x => console.log("Observa el procimo valor: " + x));
+observable.subscribe(x => console.log("Observa el proximo valor: " + x));
 
 ```
 
