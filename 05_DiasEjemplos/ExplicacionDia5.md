@@ -145,7 +145,7 @@ Realizar un seguimiento del recurso de intervalo
 
   // Proporcionar una forma de cancelar y eliminar el recurso de intervalo.
   return function unsubscribe() {
-    limpiarInterval(intervalID);
+    clearInterval(intervalID);// limpiarIntervalo(intervalID)
   };
 });
 
@@ -156,12 +156,12 @@ Al igual que observable.subscribe se asemeja a ```Observable.create (function su
 
 ```
 function subscribe(observer) {
-  var intervalID = setInterval(() => {
+  var id = setInterval(() => {
     observer.next('hola');
   }, 1000);
 
   return function unsubscribe() {
-    limpiarIntervalo(intervalID);
+   clearInterval(id);// limpiarIntervalo(intervalID)
   };
 }
 
