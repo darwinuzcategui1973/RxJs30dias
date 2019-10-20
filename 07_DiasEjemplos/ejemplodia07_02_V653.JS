@@ -12,5 +12,6 @@ subscription.add(childSubscription);
 
 setTimeout(() => {
   // Unsubscribes Cancela la suscripción de AMBAS y de suscripciones hija o secundarias
+  //subscription.remove(childSubscription);
   subscription.unsubscribe();
 }, 1000);
