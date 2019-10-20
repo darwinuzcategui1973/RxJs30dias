@@ -3,14 +3,14 @@
 
 ### Observable
 *Los observables son colecciones Push diferidas de múltiples valores.*
-/*
-+----------------------------------+
+
+
 | protocol.| Sigles   | Multiples  |
 | :------- | :------: | :-----:    |
 | Pull     | Function | Iterador   |
 | Push     | Promise  | Observable |
-+----------------------------------+
-*/
+
+
 
 **Paso para actulizar el code utilizando** *CDN* *Utilizando  la Ultima Estable V6.5.3*
 1. Colocar la version de la lib de CDN en HTML
