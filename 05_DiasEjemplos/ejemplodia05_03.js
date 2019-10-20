@@ -29,5 +29,3 @@ function subscribe(observer) {
   // Más tarde::
   unsubscribe(); // disponer de los recursos
 
-
-*/
