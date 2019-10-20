@@ -1,4 +1,4 @@
-# ReactiveX Dia 06 SUBJECT
+# ReactiveX Dia 08 SUBJECT
 
 ---
 
