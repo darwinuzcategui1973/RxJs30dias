@@ -2,10 +2,10 @@
 Los observables son *“lazy Push collections”* de valores múltiples.
 Es el punto que nos faltaba para rellenar el }}punto faltante en la siguiente tabla:
 
-| protocol.| Sigles   | Multiples  |
-| :------- | :------: | :-----:    |
-| Pull     | Function | Iterador   |
-| Push     | Promise  | Observable |
+| protocol. |  Sigles  | Multiples  |
+| :--------: | :------: | :--------: |
+|      Pull | Function |  Iterador  |
+|      Push | Promise  | Observable |
 
 Lo siguiente es un Observable que hace push de los valores 1, 2, 3 inmediatamente (sincrónicamente) cuando se suscribe, y el valor 4 después de un segundo ha pasado desde la llamada de suscripción, y luego se completa:
  
