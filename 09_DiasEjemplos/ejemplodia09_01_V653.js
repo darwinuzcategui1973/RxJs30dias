@@ -2,7 +2,7 @@
 const { Subject, from } = rxjs;
 const { multicast } = rxjs.operators;
 
-let fuente = from([1, 2, 3, 5,'darwin']);
+let fuente = from([1, 2, 3, 5, 'darwin']);
 let subject = new Subject();
 // el operador multicast
 let multicasted = fuente.pipe(multicast(subject));
@@ -12,7 +12,7 @@ multicasted.subscribe({
   next: valor => console.log('Observador A ' + valor)
 });
 multicasted.subscribe({
-  next: valor => console.log('Observador B ' + valor)
+  next: valor => console.log('Observador B bb' + valor)
 });
 // para que se ejecute se realiza el conect
 // This is, under the hood, `source.subscribe(subject)`:
