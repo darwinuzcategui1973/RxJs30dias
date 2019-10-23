@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>RxJs30Dias_dia_19_ejm_2</title>
+</head>
+
+<body>
+
+  <h1>Dia 18 Ejm 2 uso evento "mousemove" -> RxJS</h1>
+  <p>con este vamos a ir tomando la posición del mouse cada x tiempo.</p>
+  <p>Con esto, nuestro “mouseReceptor” lo que va a hacer es tomar el evento del ‘mousemove’ dentro de todo el document
+    (ósea de nuestro html), y vamos a mapear el evento entero, con una salvedad que este observable va a ejecutar el
+    next en el tiempo que nosotros le indiquemos en el ‘thottleTime’, si ponemos 1, va a ser instantaneo, pero si
+    ponemos 1000 por ejemplo vamos a ver que se ejecuta cada segundo.</p>
+  <p>El resultado de esto es el siguiente:</p> <input id="input" />
+
+
+  <script src="../libs/6.5.3/rxjs.umd.min.js"></script>
+  <script src="ejemplodia18_02_V653.js"></script>
+</body>
+
+</html>
